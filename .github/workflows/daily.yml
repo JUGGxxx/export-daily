@@ -1,0 +1,79 @@
+name: 出口要闻日报
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # UTC 00:30 = 北京时间 08:30
+  workflow_dispatch:        # 支持手动触发测试
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装系统依赖（xvfb / 中文字体 / PDF 库依赖）
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb fonts-noto-cjk \
+            libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf-2.0-0 \
+            libcairo2 libglib2.0-0 poppler-utils
+
+      - name: 安装 Python 依赖
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium --with-deps
+
+      - name: 每日增量采集
+        run: xvfb-run -a python harvest.py --mode daily --rulings-pages 1
+
+      - name: 筛选出口相关条目
+        run: python digest.py collect
+
+      - name: 自动生成日报结构（无 AI 版）
+        run: python digest_auto.py
+
+      - name: 渲染长图
+        run: python digest.py render digest_$(date +%F).json
+
+      - name: 提交长图与采集状态（jsDelivr 图床 + 增量去重持久化）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p images
+          cp "出口要闻日报_$(date +%F).png" images/ 2>/dev/null || true
+          git add images state.json index.csv || true
+          git diff --cached --quiet || git commit -m "daily update $(date +%F) [skip ci]"
+          git push
+
+      - name: 推送微信
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          JSDELIVR_BRANCH: ${{ github.ref_name }}
+        run: |
+          python push.py --image "出口要闻日报_$(date +%F).png" \
+            --title "出口要闻日报 $(date +%-m月%-d日)"
+
+      - name: 归档当日产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-output
+          path: |
+            出口要闻日报_*.png
+            policies/*.md
+            rulings_pdf/*.pdf
+          retention-days: 30
+          if-no-files-found: ignore

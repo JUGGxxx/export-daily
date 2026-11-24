@@ -1,0 +1,5 @@
+requests
+weasyprint
+playwright
+pillow
+urllib3
