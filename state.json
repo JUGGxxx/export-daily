@@ -26818,6 +26818,32 @@
    "失效原因": "",
    "PDF文件": "R-2-0800-2026-0084_84589110.pdf",
    "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=7b7ea28d-ba6e-4408-8ca6-791f4aec5adc"
+  },
+  "a4723241-2d82-4653-9642-c6815d6954f0": {
+   "SOURCE_GUID": "a4723241-2d82-4653-9642-c6815d6954f0",
+   "编号": "R-2-4700-2026-0135",
+   "决定税号": "30024990",
+   "商品名称": "复合芽孢杆菌（水产水质改良剂）",
+   "规格型号": "25kg/袋",
+   "发布单位": "武汉海关",
+   "生效日期": "",
+   "失效日期": "",
+   "失效原因": "",
+   "PDF文件": "R-2-4700-2026-0135_30024990.pdf",
+   "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=a4723241-2d82-4653-9642-c6815d6954f0"
+  },
+  "bd823cd5-bff1-4c5f-b216-78e3fa5f1e36": {
+   "SOURCE_GUID": "bd823cd5-bff1-4c5f-b216-78e3fa5f1e36",
+   "编号": "R-2-5100-2026-0253",
+   "决定税号": "38249999",
+   "商品名称": "ASTACURE斯达非 私处润滑凝胶液",
+   "规格型号": "3克/支，7支/盒",
+   "发布单位": "广州海关",
+   "生效日期": "",
+   "失效日期": "",
+   "失效原因": "",
+   "PDF文件": "R-2-5100-2026-0253_38249999.pdf",
+   "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=bd823cd5-bff1-4c5f-b216-78e3fa5f1e36"
   }
  },
  "mofcom": {
@@ -27026,7 +27052,7 @@
    "抓取日期": "2026-11-24"
   }
  },
- "last_run": "2026-11-24 01:36",
+ "last_run": "2026-11-25 01:51",
  "exportcontrol": {
   "https://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202611/1339.html": {
    "标题": "中华人民共和国两用物项出口管制清单",
