@@ -26844,6 +26844,71 @@
    "失效原因": "",
    "PDF文件": "R-2-5100-2026-0253_38249999.pdf",
    "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=bd823cd5-bff1-4c5f-b216-78e3fa5f1e36"
+  },
+  "ceaa8779-87ab-4c61-bb24-c94731a65472": {
+   "SOURCE_GUID": "ceaa8779-87ab-4c61-bb24-c94731a65472",
+   "编号": "R-2-9400-2026-0002",
+   "决定税号": "38011000",
+   "商品名称": "阳极碎(阳极残极)",
+   "规格型号": "体积密度g/cm3=1.47;抗折强度MPa=4.2;固定碳%=99.07;灰分%=0.61",
+   "发布单位": "乌鲁木齐海关",
+   "生效日期": "",
+   "失效日期": "",
+   "失效原因": "",
+   "PDF文件": "R-2-9400-2026-0002_38011000.pdf",
+   "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=ceaa8779-87ab-4c61-bb24-c94731a65472"
+  },
+  "52a007ad-3cb0-4ee8-89de-c241608ab67f": {
+   "SOURCE_GUID": "52a007ad-3cb0-4ee8-89de-c241608ab67f",
+   "编号": "R-2-2200-2026-0387",
+   "决定税号": "84869099",
+   "商品名称": "晶圆取片叉",
+   "规格型号": "50480-1096",
+   "发布单位": "上海海关",
+   "生效日期": "",
+   "失效日期": "",
+   "失效原因": "",
+   "PDF文件": "R-2-2200-2026-0387_84869099.pdf",
+   "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=52a007ad-3cb0-4ee8-89de-c241608ab67f"
+  },
+  "fa4253e7-68a0-4970-b895-70aab5102f78": {
+   "SOURCE_GUID": "fa4253e7-68a0-4970-b895-70aab5102f78",
+   "编号": "R-2-2200-2026-0386",
+   "决定税号": "17049000",
+   "商品名称": "荷氏混合莓果口味薄荷味糖16.8G",
+   "规格型号": "16.8克*12袋*24中袋/箱",
+   "发布单位": "上海海关",
+   "生效日期": "",
+   "失效日期": "",
+   "失效原因": "",
+   "PDF文件": "R-2-2200-2026-0386_17049000.pdf",
+   "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=fa4253e7-68a0-4970-b895-70aab5102f78"
+  },
+  "79e41e89-54c0-42a7-bb8b-d1c7209b362e": {
+   "SOURCE_GUID": "79e41e89-54c0-42a7-bb8b-d1c7209b362e",
+   "编号": "R-2-2200-2026-0385",
+   "决定税号": "17049000",
+   "商品名称": "荷氏蓝莓口味薄荷味糖27.9克",
+   "规格型号": "27.9克X20条X12个陈列盒/箱",
+   "发布单位": "上海海关",
+   "生效日期": "",
+   "失效日期": "",
+   "失效原因": "",
+   "PDF文件": "R-2-2200-2026-0385_17049000.pdf",
+   "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=79e41e89-54c0-42a7-bb8b-d1c7209b362e"
+  },
+  "56ef8be7-5ef0-443c-8bd2-69b0ce184aca": {
+   "SOURCE_GUID": "56ef8be7-5ef0-443c-8bd2-69b0ce184aca",
+   "编号": "R-2-2200-2026-0384",
+   "决定税号": "21069090",
+   "商品名称": "炫迈跃动鲜果味无糖口香糖4X9X28S",
+   "规格型号": "28克X9盒X4个陈列盒/箱",
+   "发布单位": "上海海关",
+   "生效日期": "",
+   "失效日期": "",
+   "失效原因": "",
+   "PDF文件": "R-2-2200-2026-0384_21069090.pdf",
+   "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=56ef8be7-5ef0-443c-8bd2-69b0ce184aca"
   }
  },
  "mofcom": {
@@ -26936,6 +27001,12 @@
    "URL": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_787f0441da1f4c0e8b5bad10118247f3.html",
    "栏目": "商务部政策发布",
    "抓取日期": "2026-11-19"
+  },
+  "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_69b3633579184af38198463be8116ebf.html": {
+   "标题": "公布继续调整实施商务部公告2024年第46号的决定",
+   "URL": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_69b3633579184af38198463be8116ebf.html",
+   "栏目": "商务部政策发布",
+   "抓取日期": "2026-11-26"
   }
  },
  "customs": {
@@ -27050,9 +27121,23 @@
    "栏目": "海关总署公告",
    "日期": "",
    "抓取日期": "2026-11-24"
+  },
+  "http://www.customs.gov.cn/customs/2026-11/25/article_2026112517031994701.html": {
+   "标题": "海关总署公告2026年第162号（关于进一步规范进出口化妆品安全监管要求的公告）",
+   "URL": "http://www.customs.gov.cn/customs/2026-11/25/article_2026112517031994701.html",
+   "栏目": "海关总署公告",
+   "日期": "",
+   "抓取日期": "2026-11-26"
+  },
+  "http://www.customs.gov.cn/customs/2026-11/25/article_2026112517065763701.html": {
+   "标题": "海关总署农业农村部公告2026年第163号（关于防止拉脱维亚蓝舌病传入我国的公告）",
+   "URL": "http://www.customs.gov.cn/customs/2026-11/25/article_2026112517065763701.html",
+   "栏目": "海关总署公告",
+   "日期": "",
+   "抓取日期": "2026-11-26"
   }
  },
- "last_run": "2026-11-25 01:51",
+ "last_run": "2026-11-26 01:51",
  "exportcontrol": {
   "https://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202611/1339.html": {
    "标题": "中华人民共和国两用物项出口管制清单",
