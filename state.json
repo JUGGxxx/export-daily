@@ -26935,6 +26935,45 @@
    "失效原因": "",
    "PDF文件": "R-2-4700-2026-0136_85258931.pdf",
    "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=a55f89b0-5250-4a4c-b227-03316faab5cc"
+  },
+  "355d0b9f-e25d-43c8-bc3e-bca7aead2a1c": {
+   "SOURCE_GUID": "355d0b9f-e25d-43c8-bc3e-bca7aead2a1c",
+   "编号": "R-2-4700-2026-0142",
+   "决定税号": "85258931",
+   "商品名称": "红外成像仪",
+   "规格型号": "PC260S",
+   "发布单位": "武汉海关",
+   "生效日期": "",
+   "失效日期": "",
+   "失效原因": "",
+   "PDF文件": "R-2-4700-2026-0142_85258931.pdf",
+   "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=355d0b9f-e25d-43c8-bc3e-bca7aead2a1c"
+  },
+  "6d7b4a46-56dd-445a-aaab-5d4360f447fd": {
+   "SOURCE_GUID": "6d7b4a46-56dd-445a-aaab-5d4360f447fd",
+   "编号": "R-2-4700-2026-0141",
+   "决定税号": "85258931",
+   "商品名称": "套瞄",
+   "规格型号": "TB1260LS",
+   "发布单位": "武汉海关",
+   "生效日期": "",
+   "失效日期": "",
+   "失效原因": "",
+   "PDF文件": "R-2-4700-2026-0141_85258931.pdf",
+   "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=6d7b4a46-56dd-445a-aaab-5d4360f447fd"
+  },
+  "88887673-4548-4911-aa6b-d5a7814e6a7c": {
+   "SOURCE_GUID": "88887673-4548-4911-aa6b-d5a7814e6a7c",
+   "编号": "R-2-4700-2026-0140",
+   "决定税号": "85437099",
+   "商品名称": "位移测量单元",
+   "规格型号": "B3427848A01和B3427848A00",
+   "发布单位": "武汉海关",
+   "生效日期": "",
+   "失效日期": "",
+   "失效原因": "",
+   "PDF文件": "R-2-4700-2026-0140_85437099.pdf",
+   "详情页URL": "http://gss.customs.gov.cn/CLSouter2020/Home/ClassifyDisplayYCD?SourceGuid=88887673-4548-4911-aa6b-d5a7814e6a7c"
   }
  },
  "mofcom": {
@@ -27169,7 +27208,7 @@
    "抓取日期": "2026-11-26"
   }
  },
- "last_run": "2026-11-27 01:51",
+ "last_run": "2026-11-28 01:48",
  "exportcontrol": {
   "https://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202611/1339.html": {
    "标题": "中华人民共和国两用物项出口管制清单",
